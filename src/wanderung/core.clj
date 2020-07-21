@@ -1,5 +1,6 @@
 (ns wanderung.core
   (:require [datahike.api :as d]
+            [datahike-jdbc.core]
             [datomic.client.api :as dt]
             [wanderung.datomic-cloud :as wdc]
             [clojure.tools.cli :refer [parse-opts]]
